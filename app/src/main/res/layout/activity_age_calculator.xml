@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivMan"
+        android:layout_width="208dp"
+        android:layout_height="195dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@drawable/age_logo"/>
+
+    <EditText
+        android:id="@+id/etBorn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="@drawable/input_device"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="27sp"
+        android:textColor="#CB6811"
+        android:hint="When did you born?"
+        android:textColorHint="#CB6811"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/showAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#CB6811"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:onClick="calculateAge"
+        android:textAllCaps="false"
+        android:textColor="#CB6811"
+        android:background="@drawable/input_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="60dp"
+        android:padding="13dp"
+        android:text="Calculate" />
+
+</LinearLayout>
